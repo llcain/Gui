@@ -8,12 +8,9 @@ public class GUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //        frame.getContentPane().setBackground(Color.BLACK);
         frame.setSize(300,300);
-        JPanel p = new JPanel();
         JButton button = new JButton("Press");
-        Color c = Color.green;
-        button.setBackground(c);
-        frame.getContentPane().add(p);
-        p.setBackground(Color.BLUE);
+
+
         frame.getContentPane().add(button); // Adds Button to content pane of frame
 
         frame.setVisible(true);
