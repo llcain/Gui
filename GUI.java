@@ -10,6 +10,7 @@ public class GUI {
         JButton button = new JButton("Press");
         button.setBackground(Color.red);
         frame.getContentPane().add(button); // Adds Button to content pane of frame
+        frame.getContentPane().setBackground(Color.green);
         frame.setVisible(true);
 
     }
