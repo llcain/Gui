@@ -1,6 +1,13 @@
+import javax.swing.*;
+
 public class GUI {
 
     public static void main(String args[]) {
-        System.out.println("hello laquisha");
+        JFrame frame = new JFrame("My first Gui");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300,300);
+        JButton button = new JButton("Press");
+        frame.getContentPane().add(button); // Adds Button to content pane of frame
+        frame.setVisible(true);
     }
 }
